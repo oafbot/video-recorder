@@ -1,0 +1,137 @@
+/* CSS file */
+.global{
+	fontFamily: "Helvetica Neue";
+	fontSize: 11;	
+}
+
+Button{
+	fontSize: 11;
+	color: #63A6B9;
+	textRollOverColor: #78C8DF;
+	textSelectedColor: #63A6B9;
+	themeColor: #87C7DA;
+	fillAlphas: 0.7, 0.7, 1.0, 1.0;
+	fillColors: #FFFFFF, #CBE5EB, #FDFDFD, #EEF8FB;
+	fontFamily: "Helvetica Neue";
+	borderColor: #C4DBDC;		
+}
+
+Alert{
+	borderColor: #C4DBDC;
+	backgroundColor: #C4DBDC;
+	roundedBottomCorners: true;
+	cornerRadius: 4;
+	borderThicknessLeft: 10;
+	borderThicknessRight: 10;
+	borderThicknessTop: 10;
+	borderThicknessBottom: 10;
+	color: #63A6B9;
+	fontWeight: bold;
+	fontSize: 13;
+	controlBarStyleName: alertControlBar;
+	titleStyleName: alertTitle;
+	headerHeight: 10;
+	backgroundAlpha: 0.9;
+	borderAlpha: 0.9;
+	statusStyleName: alertStatus;		
+}
+Button.record{
+	cornerRadius: 4;
+	fillAlphas: 1.0, 1.0, 1.0, 1.0;
+	fillColors: #FFFFFF, #BEE2EA, #FEFEFE, #E7F6F9;
+	fontSize: 11;
+	leading: 2;
+	paddingLeft: 5;
+	paddingRight: 10;
+	paddingTop: 2;
+	paddingBottom: 2;
+	horizontalGap: 6;
+	upIcon: Embed(source='assets/recLight.swf', symbol='record_up');
+	overIcon: Embed(source='assets/recLight.swf', symbol='record_up');
+	downIcon: Embed(source='assets/recLight.swf', symbol='record_up');
+	disabledIcon: Embed(source='assets/recLight.swf', symbol='record_up');
+	selectedUpIcon: Embed(source='assets/recLight.swf', symbol='record_up');
+	selectedOverIcon: Embed(source='assets/recLight.swf', symbol='record_up');
+	selectedDownIcon: Embed(source='assets/recLight.swf', symbol='record_up');
+	selectedDisabledIcon: Embed(source='assets/recLight.swf', symbol='record_up');
+	color: #63A6B9;
+	textSelectedColor: #63A6B9;
+	textAlign: left;	
+}
+Button.recordOff{
+	cornerRadius: 4;
+	fillAlphas: 1.0, 1.0, 1.0, 1.0;
+	fillColors: #FFFFFF, #BEE2EA, #FEFEFE, #E7F6F9;
+	fontSize: 11;
+	leading: 2;
+	paddingLeft: 5;
+	paddingRight: 10;
+	paddingTop: 2;
+	paddingBottom: 2;
+	horizontalGap: 6;
+	upIcon: Embed(source='assets/recLight.swf', symbol='record_disabled');
+	overIcon: Embed(source='assets/recLight.swf', symbol='record_over');
+	downIcon: Embed(source='assets/recLight.swf', symbol='record_disabled');
+	disabledIcon: Embed(source='assets/recLight.swf', symbol='record_disdiddlyabled');
+	selectedUpIcon: Embed(source='assets/recLight.swf', symbol='record_disabled');
+	selectedOverIcon: Embed(source='assets/recLight.swf', symbol='record_over');
+	selectedDownIcon: Embed(source='assets/recLight.swf', symbol='record_disabled');
+	selectedDisabledIcon: Embed(source='assets/recLight.swf', symbol='record_disdiddlyabled');
+	color: #63A6B9;
+	textSelectedColor: #63A6B9;
+	textAlign: left;	
+}
+@font-face
+{
+	fontFamily: "Helvetica Neue";
+	fontWeight: bold;
+	fontStyle: normal;
+	src: local("Helvetica Neue");
+}
+Text.timer
+{
+	color: #63A6B9;
+	fontSize: 14;
+	fontWeight: bold;
+	fontFamily: "OCR A Std";
+	leading: 0;
+	paddingTop: -6;
+	paddingBottom: 0;
+	paddingLeft: 0;
+	textAlign: right;
+}
+@font-face
+{
+	fontFamily: "OCR A Std";
+	fontWeight: bold;
+	fontStyle: normal;
+	src: local("OCR A Std");
+}
+@font-face
+{
+	fontFamily: Onyx;
+	fontWeight: bold;
+	fontStyle: normal;
+	src: local("Onyx");
+}
+@font-face
+{
+	fontFamily: "OCR A Std";
+	fontWeight: normal;
+	fontStyle: normal;
+	src: local("OCR A Std");
+}
+.alertControlBar
+{
+	color: #63A6B9;
+	fontSize: 16;
+	horizontalGap: 20;
+	paddingBottom: 10;
+}
+.alertTitle
+{
+	paddingLeft: 20;
+}
+.alertStatus
+{
+}
